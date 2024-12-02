@@ -10,7 +10,11 @@ class Program
         double weight = 65.22;
         bool spayed = true;
 
-      Console.WriteLine(name, breed, age, weight, spayed);  
+      Console.WriteLine(name);
+      Console.WriteLine(breed);
+      Console.WriteLine(age);
+      Console.WriteLine(weight);
+      Console.WriteLine(spayed);  
 
     }
 }
