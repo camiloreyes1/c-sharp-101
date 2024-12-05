@@ -5,10 +5,24 @@ class Program
     static void Main(string[] args)
     {
 
-    Console.WriteLine("Enter your favorite number");
-    int favNumber = Convert.ToInt32(Console.ReadLine()); 
+        string passengerName = "Zara";
+        int passengerAge = 28;
+        string ticketType = "First Class";
+        string preferredPlanet = "Mars";
 
+        Console.WriteLine(passengerName);
+        Console.WriteLine(passengerAge);
+        Console.WriteLine(ticketType);
+        Console.WriteLine(preferredPlanet);
 
+        passengerAge++;
+
+        Console.WriteLine(passengerAge);
+
+        double passengerAgeDouble = (double)passengerAge;
+        Console.WriteLine(passengerAgeDouble);
+
+        
 
     }
 }
