@@ -1,32 +1,26 @@
 using System;
 
-class Program
+namespace Numbers
 {
+  class Program
+  {
     static void Main(string[] args)
     {
+      // Number of pizza shops
+        int pizzaShops = 4332;
 
-        string passengerName = "Zara";
-        int passengerAge = 28;
-        string ticketType = "First Class";
-        string preferredPlanet = "Mars";
+      // Number of employees
+        int totalEmployees = 86928;
 
-        Console.WriteLine(passengerName);
-        Console.WriteLine(passengerAge);
-        Console.WriteLine(ticketType);
-        Console.WriteLine(preferredPlanet);
+      // Revenue
+        decimal revenue = 390819.28m;
 
-        passengerAge++;
+      // Log the values to the console:
 
-        Console.WriteLine(passengerAge);
+      Console.WriteLine(pizzaShops);
+      Console.WriteLine(totalEmployees);
+      Console.WriteLine(revenue);
 
-        double passengerAgeDouble = (double)passengerAge;
-        Console.WriteLine(passengerAgeDouble);
-
-        
-
-    }
+   	}
+  }
 }
-
-// Console.WriteLine() prints text to the console.
-// Console.ReadLine() captures user input in the console.
-
