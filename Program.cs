@@ -5,22 +5,36 @@ namespace Numbers
   class Program
   {
     static void Main(string[] args)
-    {
-      // Number of pizza shops
-        int pizzaShops = 4332;
+    {  
+      // Your Age
 
-      // Number of employees
-        int totalEmployees = 86928;
+      int userAge = 27;
 
-      // Revenue
-        decimal revenue = 390819.28m;
+      // Length of years on Jupiter (in Earth years)
 
-      // Log the values to the console:
+      double jupiterYears = 11.86;
 
-      Console.WriteLine(pizzaShops);
-      Console.WriteLine(totalEmployees);
-      Console.WriteLine(revenue);
+      // Age on Jupiter
 
-   	}
+      double jupiterAge = userAge / jupiterYears;
+
+      // Time to Jupiter
+      double journeyToJupiter = 6.142466;
+
+      // New Age on Earth
+      double newEarthAge = userAge + journeyToJupiter;
+
+
+      // New Age on Jupiter
+
+      double newJupiterAge = newEarthAge/jupiterYears;
+
+
+      // Log calculations to console
+
+      Console.WriteLine(newEarthAge + " years old in Earth");
+      Console.WriteLine(newJupiterAge + " years old in Jupiter");
+
+    }
   }
 }
