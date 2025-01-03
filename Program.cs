@@ -1,40 +1,21 @@
 using System;
 
-namespace Numbers
+namespace MoneyMaker
 {
-  class Program
+  class MainClass
   {
-    static void Main(string[] args)
-    {  
-      // Your Age
+    public static void Main(string[] args)
+    {
 
-      int userAge = 27;
+      Console.WriteLine("Welcome to Money Maker!");
+      Console.WriteLine("Please input the amount of money you have");
 
-      // Length of years on Jupiter (in Earth years)
+      string money = Console.ReadLine();
 
-      double jupiterYears = 11.86;
+      double moneyExact = Convert.ToDouble(money);
 
-      // Age on Jupiter
-
-      double jupiterAge = userAge / jupiterYears;
-
-      // Time to Jupiter
-      double journeyToJupiter = 6.142466;
-
-      // New Age on Earth
-      double newEarthAge = userAge + journeyToJupiter;
-
-
-      // New Age on Jupiter
-
-      double newJupiterAge = newEarthAge/jupiterYears;
-
-
-      // Log calculations to console
-
-      Console.WriteLine(newEarthAge + " years old in Earth");
-      Console.WriteLine(newJupiterAge + " years old in Jupiter");
-
+      Console.WriteLine(money);
+      
     }
   }
 }
